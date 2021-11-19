@@ -1,5 +1,11 @@
 import React from "react";
 
 function Notifications() {
-  return <h1> MarioPlan</h1>;
+  return (
+    <div>
+      <p>Notifications</p>
+    </div>
+  );
 }
+
+export default Notifications;

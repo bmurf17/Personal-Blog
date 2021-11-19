@@ -1,5 +1,15 @@
 import React from "react";
+import ProjectSumary from "./ProjectSummary";
 
 function ProjectList() {
-  return <h1> MarioPlan</h1>;
+  return (
+    <div className="project-list section">
+      <ProjectSumary />
+      <ProjectSumary />
+      <ProjectSumary />
+      <ProjectSumary />
+    </div>
+  );
 }
+
+export default ProjectList;

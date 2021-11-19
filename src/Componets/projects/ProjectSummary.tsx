@@ -1,5 +1,15 @@
 import React from "react";
 
 function ProjectSumary() {
-  return <h1> MarioPlan</h1>;
+  return (
+    <div className="card z-depth-0 project-summary">
+      <div className="card-content grey-text text-darken-3">
+        <span className="card-title"> Project Title</span>
+        <p> Posted By Brendan</p>
+        <p className="grey-text"> November 17 </p>
+      </div>
+    </div>
+  );
 }
+
+export default ProjectSumary;
