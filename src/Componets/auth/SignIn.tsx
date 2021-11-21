@@ -32,7 +32,6 @@ function SignedIn() {
             id="password"
             onChange={(e) => {
               setPassword(e.target.value);
-              console.log(password);
             }}
           />
         </div>
